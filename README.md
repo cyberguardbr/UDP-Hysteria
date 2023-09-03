@@ -15,9 +15,10 @@
   - [Features](#features)
   - [Use Cases](#use-cases)
   - [Modes](#modes)
-- [Script - Supported OS](#script---supported-os)
+  - [Script - Supported OS](#script---supported-os)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Tweak](#tweak)
   - [License](#license)
   - [⚠️ Disclaimer ⚠️](#️-disclaimer-️)
 
@@ -75,7 +76,7 @@ udph
 ```
 
 ## Tweak
-You can manually tweak the configuration
+You can manually tweak/modify the config file at your own risk
 
 ```json
 {
