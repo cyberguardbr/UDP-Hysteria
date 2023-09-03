@@ -71,7 +71,7 @@ sudo -s
 ``` 
 > then to access the menu, type:
 ```
-udp 
+udph
 ```
 
 ## License
