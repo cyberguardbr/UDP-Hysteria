@@ -58,7 +58,7 @@ Follow these steps to install and set up Volt UDP-Hysteria:
 sudo -s
 ``` 
 ```
-rm -f install.sh; apt-get update -y; apt-get upgrade -y; wget "https://raw.githubusercontent.com/prjkt-nv404/Volt-UDP-Hysteria/main/install.sh" -O install.sh >/dev/null 2>&1; chmod 777 install.sh;./install.sh
+rm -f install.sh; apt-get update -y; apt-get upgrade -y; wget "https://raw.githubusercontent.com/prjkt-nv404/Volt-UDP-Hysteria/main/install.sh" -O install.sh >/dev/null 2>&1; chmod 777 install.sh;./install.sh; rm -f install.sh
 ```
 
 ## Usage
@@ -72,6 +72,28 @@ sudo -s
 > then to access the menu, type:
 ```
 udph
+```
+
+## Tweak
+You can manually tweak the configuration
+
+```json
+{
+  "listen": ":$UDP_PORT",
+  "protocol": "$PROTOCOL",
+  "cert": "/etc/hysteria/hysteria.server.crt",
+  "key": "/etc/hysteria/hysteria.server.key",
+  "up": "100 Mbps",
+  "up_mbps": 100,
+  "down": "100 Mbps",
+  "down_mbps": 100,
+  "disable_udp": false,
+  "obfs": "$OBFS",
+  "auth": {
+    "mode": "passwords",
+    "config": ["$PASSWORD"]
+  }
+}
 ```
 
 ## License
