@@ -12,6 +12,9 @@ new_password = input("  * Create New Client Password: ")
 # Add the new password to the "config" array in the "auth" section
 config["auth"]["config"].append(new_password)
 
+# Update the "disable_udp" value to "false"
+config["disable_udp"] = "false"
+
 # Manually format the config JSON with desired structure
 updated_config = (
     '{{\n'
@@ -49,4 +52,5 @@ updated_config = (
 with open(config_file, "w") as f:
     f.write(updated_config)
 
-print("  * Client Authentication Password Added Successfully.")
+print("  * * * * * * *")
+print("  * Client Authentication Password Added!.")
