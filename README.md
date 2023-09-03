@@ -65,7 +65,7 @@ apt-get update -y; apt-get upgrade -y; wget "https://raw.githubusercontent.com/p
 
 Here's how to use Volt UDP-Hysteria:
 
-> after successful installation & reboot, type:
+> after successful installation, type:
 ```
 sudo -s
 ``` 
