@@ -7,7 +7,7 @@ with open(config_file, "r") as f:
     config = json.load(f)
 
 # Read new password from input
-new_password = input("Create New Client Password: ")
+new_password = input("  * Create New Client Password: ")
 
 # Add the new password to the "config" array in the "auth" section
 config["auth"]["config"].append(new_password)
@@ -49,4 +49,4 @@ updated_config = (
 with open(config_file, "w") as f:
     f.write(updated_config)
 
-print("Client Authentication Password Added Successfully.")
+print("  * Client Authentication Password Added Successfully.")
