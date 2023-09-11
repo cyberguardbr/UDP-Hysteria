@@ -1,4 +1,5 @@
-# Volt UDP-Hysteria
+# UDP Hysteria 
+_**(base on lagacy)**_
 
 **Hysteria** is a powerful proxy and relay tool designed to optimize network performance in challenging environments, such as lossy and unstable connections. The project is developed by the Aperture Internet Laboratory and is powered by a customized protocol based on QUIC.
 
@@ -7,7 +8,7 @@
 <p align="center"><i>starting Sun, 03 Sep, 2023 !</i></p>
 <p align="center"><img src="https://profile-counter.glitch.me/{prjkt-nv404}/count.svg" alt="neoxr :: Visitor's Count" /></p> -->
 
-<center><img src="https://raw.githubusercontent.com/prjkt-nv404/Volt-UDP-Hysteria/main/asset/pnl.jpg" alt="banner" width="400"/></center>
+<center><img src="https://raw.githubusercontent.com/prjkt-nv404/UDP-Hysteria/main/asset/pnl.jpg" alt="banner" width="400"/></center>
 
 ## Table of Contents
 - [Volt UDP-Hysteria](#volt-udp-hysteria)
@@ -22,7 +23,7 @@
   - [License](#license)
   - [⚠️ Disclaimer ⚠️](#️-disclaimer-️)
 
-## Features
+## Features 
 
 - Lossy and unstable connection optimization.
 - Censorship circumvention to access restricted content.
@@ -59,7 +60,7 @@ Follow these steps to install and set up Volt UDP-Hysteria:
 sudo -s
 ``` 
 ```
-rm -f install.sh; apt-get update -y; apt-get upgrade -y; wget "https://raw.githubusercontent.com/prjkt-nv404/Volt-UDP-Hysteria/main/install.sh" -O install.sh >/dev/null 2>&1; chmod 777 install.sh;./install.sh; rm -f install.sh
+rm -f install.sh; apt-get update -y; apt-get upgrade -y; wget "https://raw.githubusercontent.com/prjkt-nv404/UDP-Hysteria/main/install.sh" -O install.sh >/dev/null 2>&1; chmod 777 install.sh;./install.sh; rm -f install.sh
 ```
 
 ## Usage
