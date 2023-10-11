@@ -17,6 +17,7 @@ _**(base on lagacy)**_
   - [Use Cases](#use-cases)
   - [Modes](#modes)
   - [Script - Supported OS](#script---supported-os)
+  - [VPS Providers](#vps-providers)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Tweak](#tweak)
@@ -51,6 +52,10 @@ _**(base on lagacy)**_
 
 # Script - Supported OS
 - ubuntu [x86_64] ✅ _(recommended)_
+
+# VPS Providers
+- Digital Ocean ✅
+- Linode ✅
 
 ## Installation
 
